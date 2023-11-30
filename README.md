@@ -1,2 +1,2 @@
 # Python-PONG
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](./PythonPONG/PythonPONG.png)
