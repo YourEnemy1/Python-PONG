@@ -91,12 +91,12 @@ while True:
 	if ball.ycor() > 290:
 		ball.sety(290)
 		ball.dy *= -1
-		winsound.PlaySound("F:\Math Files\Python\PythonApplication1\Sound\[ONTIVA.COM] Ball bounce (boing sound effect)-HQWAV.wav", winsound.SND_ASYNC)
+		winsound.PlaySound("./Sound/boink.wav", winsound.SND_ASYNC)
 
 	if ball.ycor() < -290:
 		ball.sety(-290)
 		ball.dy *= -1
-		winsound.PlaySound("F:\Math Files\Python\PythonApplication1\Sound\[ONTIVA.COM] Ball bounce (boing sound effect)-HQWAV.wav", winsound.SND_ASYNC)
+		winsound.PlaySound("./Sound/boink.wav", winsound.SND_ASYNC)
 
 	if ball.xcor() > 390:
 		ball.goto(0, 0)
